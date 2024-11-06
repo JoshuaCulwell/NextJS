@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Counter from '../components/Counter';
+import Counter2 from '../components/Counter2';
+import GithubParagraph from '../components/GithubParagraph';
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
           Joshua Culwell welcomes <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <Counter />
+        <Counter2 />
+        <GithubParagraph />
       </main>
     </div>
   );
