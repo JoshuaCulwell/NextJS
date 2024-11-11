@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import Counter from '../components/Counter';
 import Counter2 from '../components/Counter2';
 import GithubParagraph from '../components/GithubParagraph';
+import SearchBar from '../components/SearchBar';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Counter />
         <Counter2 />
         <GithubParagraph />
+        <SearchBar />
       </main>
     </div>
   );
